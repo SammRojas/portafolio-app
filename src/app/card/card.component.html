@@ -1,0 +1,8 @@
+<div class="card">
+    <img [src]="dataEntrante?.avatar" alt="una imagen" class="image">
+    <div class="wrapper-text">
+        <div class="title">{{dataEntrante?.firs_name}}</div>
+        <div class="sub-tittle">{{dataEntrante?.email}}</div>
+    </div>
+    <button class="favorite" (click)="addFavorite()">Add Favorite</button>
+</div>
